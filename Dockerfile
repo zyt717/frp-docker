@@ -12,4 +12,4 @@ RUN wget https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_$
     && mv frp_${FRP_VERSION}_linux_amd64 /var/frp
 
 WORKDIR /var/frp
-ENTRYPOINT ./$MODE -c ./conf/$MODE.ini
+ENTRYPOINT ./$MODE -c ./$MODE.ini
