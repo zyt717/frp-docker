@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ARG FRP_VERSION=0.18.0
+ARG FRP_VERSION=0.19.0
 ENV MODE=frps
 
 RUN apk --no-cache add wget
